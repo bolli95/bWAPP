@@ -145,7 +145,7 @@ if(isset($_POST["form"]) && isset($_POST["bug"]))
     <a href="xss_ajax_1-1.php">Bug</a>
     <a href="xss_back_button.php">Bug</a>
     <a href="xss_custom_header.php">Bug</a>
-    <a href="xss_eval.php">Bug</a>?date=Date()
+    <a href="xss_eval.php?date=Date()">Bug</a>
     <a href="xss_href-1.php">Bug</a>
     <a href="xss_login.php">Bug</a>
     <a href="xss_phpmyadmin.php">Bug</a>
@@ -186,7 +186,7 @@ if(isset($_POST["form"]) && isset($_POST["bug"]))
     <a href="insuff_transp_layer_protect_4.php">Bug</a>
     <a href="insuff_transp_layer_protect_2.php">Bug</a>
     <a href="insecure_crypt_storage_2.php">Bug</a>
-    <a href="directory_traversal_2.php">Bug</a>?directory=documents
+    <a href="directory_traversal_2.php?directory=documents">Bug</a>
     <a href="directory_traversal_1.php">Bug</a>?page=message.txt
     <a href="hostheader_1.php">Bug</a>
     <a href="hostheader_2.php">Bug</a>
