@@ -37,8 +37,8 @@ $smtp_server = "";
 //   1. Change the IP address(es) in this file to the IP address(es) of your tool(s)
 //   2. Point your web scanners, crawlers or attack tools to this URL: http://[bWAPP-IP]/bWAPP/aim.php
 //   3. Push the button: all hell breaks loose...
-$AIM_IPs = array("6.6.6.6", "6.6.6.7", "6.6.6.8", "10.0.1.66");
-$AIM_subnet = "6.6.6.0/30";
+$AIM_IPs = array("0.0.0.0", "0.0.0.0", "0.0.0.0", "0.0.0.0");
+$AIM_subnet = "0.0.0.0/30";
 //
 // Add here the files that could break bWAPP or your web server in the A.I.M. mode
 $AIM_exclusions = array("aim.php", "ba_logout.php", "cs_validation.php", "csrf_1.php", "http_verb_tampering.php", "ldap_connect.php", "ldapi.php", "portal.php", "sm_dos_2.php", "sm_obu_files.php");
