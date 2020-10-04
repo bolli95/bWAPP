@@ -21,7 +21,7 @@ cd bWAPP
 docker build --tag bwapp:1.0 .
 ```
 
-## Run docker image:
+## Run the wepapp:
 In order to run the container in docker execute the following command:
 
 ```
